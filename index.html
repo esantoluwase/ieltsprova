@@ -6,40 +6,62 @@
 
     <title>IELTSProva | Your AI-Powered IELTS Preparation Partner</title>
 
-    <meta name="description" content="IELTSProva is an AI-powered IELTS preparation platform helping students improve their Reading, Listening, Writing, and Speaking skills.">
+    <meta name="description" content="IELTSProva helps students prepare for IELTS with AI-powered practice, mock tests, personalized study plans, and an AI speaking tutor.">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
     <header class="navbar">
+
         <div class="container nav-container">
 
             <a href="index.html" class="logo">
                 IELTS<span>Prova</span>
             </a>
 
-            <nav class="nav-links">
+            <nav class="nav-links" id="navLinks">
                 <a href="#home">Home</a>
                 <a href="#skills">IELTS Skills</a>
                 <a href="#ai">AI Features</a>
-                <a href="#how-it-works">How It Works</a>
+                <a href="#mock-tests">Mock Tests</a>
                 <a href="#pricing">Pricing</a>
             </nav>
 
             <div class="nav-buttons">
-                <a href="#" class="login-btn">Log In</a>
-                <a href="#" class="signup-btn">Get Started</a>
+
+                <a href="login.html" class="login-btn">
+                    Log In
+                </a>
+
+                <a href="signup.html" class="signup-btn">
+                    Get Started
+                </a>
+
             </div>
 
+            <!-- Mobile Menu Button -->
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                ☰
+            </button>
+
         </div>
+
     </header>
 
 
-    <!-- Hero Section -->
     <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
 
         <section class="hero" id="home">
 
@@ -63,13 +85,15 @@
                     </p>
 
                     <div class="hero-buttons">
-                        <a href="#" class="primary-btn">
+
+                        <a href="signup.html" class="primary-btn">
                             Start Free Practice →
                         </a>
 
-                        <a href="#" class="secondary-btn">
+                        <a href="signup.html" class="secondary-btn">
                             Take a Free Level Test
                         </a>
+
                     </div>
 
                     <div class="hero-trust">
@@ -94,30 +118,52 @@
                 </div>
 
 
-                <!-- Hero Dashboard Preview -->
+                <!-- Dashboard Preview -->
+
                 <div class="hero-preview">
 
                     <div class="preview-card">
 
                         <div class="preview-header">
+
                             <div>
+
                                 <small>YOUR PROGRESS</small>
-                                <h3>Welcome to IELTSProva 👋</h3>
+
+                                <h3>
+                                    Welcome to IELTSProva 👋
+                                </h3>
+
                             </div>
 
                             <div class="score-circle">
+
                                 <strong>6.5</strong>
+
                                 <small>Band</small>
+
                             </div>
+
                         </div>
+
 
                         <div class="target-score">
-                            <span>Target Band</span>
-                            <strong>7.5</strong>
+
+                            <span>
+                                Target Band
+                            </span>
+
+                            <strong>
+                                7.5
+                            </strong>
+
                         </div>
 
+
                         <div class="progress-bar">
+
                             <div class="progress-fill"></div>
+
                         </div>
 
 
@@ -154,7 +200,10 @@
         </section>
 
 
-        <!-- Skills Section -->
+        <!-- =========================
+             IELTS SKILLS
+        ========================== -->
+
         <section class="skills-section" id="skills">
 
             <div class="container">
@@ -180,66 +229,91 @@
 
                 <div class="skills-grid">
 
-                    <div class="skill-card reading-card">
 
-                        <div class="skill-icon">📖</div>
+                    <div class="skill-card">
 
-                        <h3>Reading</h3>
+                        <div class="skill-icon">
+                            📖
+                        </div>
+
+                        <h3>
+                            Reading
+                        </h3>
 
                         <p>
                             Practice realistic IELTS passages and improve your
                             comprehension, vocabulary, and reading speed.
                         </p>
 
-                        <a href="#">Explore Reading →</a>
+                        <a href="signup.html">
+                            Explore Reading →
+                        </a>
 
                     </div>
 
 
-                    <div class="skill-card listening-card">
+                    <div class="skill-card">
 
-                        <div class="skill-icon">🎧</div>
+                        <div class="skill-icon">
+                            🎧
+                        </div>
 
-                        <h3>Listening</h3>
+                        <h3>
+                            Listening
+                        </h3>
 
                         <p>
                             Train with realistic audio exercises and develop
                             your ability to understand different accents.
                         </p>
 
-                        <a href="#">Explore Listening →</a>
+                        <a href="signup.html">
+                            Explore Listening →
+                        </a>
 
                     </div>
 
 
-                    <div class="skill-card writing-card">
+                    <div class="skill-card">
 
-                        <div class="skill-icon">✍️</div>
+                        <div class="skill-icon">
+                            ✍️
+                        </div>
 
-                        <h3>Writing</h3>
+                        <h3>
+                            Writing
+                        </h3>
 
                         <p>
                             Practice Task 1 and Task 2 and receive AI-powered
                             feedback on your writing performance.
                         </p>
 
-                        <a href="#">Explore Writing →</a>
+                        <a href="signup.html">
+                            Explore Writing →
+                        </a>
 
                     </div>
 
 
-                    <div class="skill-card speaking-card">
+                    <div class="skill-card">
 
-                        <div class="skill-icon">🗣️</div>
+                        <div class="skill-icon">
+                            🗣️
+                        </div>
 
-                        <h3>Speaking</h3>
+                        <h3>
+                            Speaking
+                        </h3>
 
                         <p>
                             Talk naturally with your AI speaking partner and
                             receive personalized feedback on your performance.
                         </p>
 
-                        <a href="#">Practice Speaking →</a>
+                        <a href="signup.html">
+                            Practice Speaking →
+                        </a>
 
                     </div>
 
@@ -250,7 +324,10 @@
         </section>
 
 
-        <!-- AI Section -->
+        <!-- =========================
+             AI FEATURES
+        ========================== -->
+
         <section class="ai-section" id="ai">
 
             <div class="container ai-container">
@@ -258,45 +335,48 @@
                 <div class="ai-content">
 
                     <div class="section-label">
-                        MEET YOUR AI IELTS COACH
+                        YOUR PERSONAL AI IELTS COACH
                     </div>
 
                     <h2>
-                        Practice Speaking
-                        <span>Without Fear</span>
+                        Practice Smarter with
+                        <span>AI-Powered Learning</span>
                     </h2>
 
                     <p>
-                        Improve your confidence by practicing IELTS Speaking
-                        with an AI partner that is available whenever you are.
+                        IELTSProva uses intelligent AI tools to help you identify
+                        weaknesses, improve your performance, and practice with
+                        personalized feedback.
                     </p>
+
 
                     <ul class="ai-features">
 
                         <li>
                             <span>✓</span>
-                            Practice IELTS Speaking Parts 1, 2 & 3
+                            AI Speaking Tutor available 24/7
                         </li>
 
                         <li>
                             <span>✓</span>
-                            Receive instant AI-powered feedback
+                            AI-powered Writing evaluation
                         </li>
 
                         <li>
                             <span>✓</span>
-                            Improve fluency, vocabulary and grammar
+                            Personalized IELTS study recommendations
                         </li>
 
                         <li>
                             <span>✓</span>
-                            Get an estimated IELTS Speaking band score
+                            Estimated band scores and performance analysis
                         </li>
 
                     </ul>
 
-                    <a href="#" class="primary-btn">
-                        Try AI Speaking →
+
+                    <a href="signup.html" class="primary-btn">
+                        Start Learning with AI →
                     </a>
 
                 </div>
@@ -307,37 +387,68 @@
                     <div class="ai-chat">
 
                         <div class="ai-chat-header">
-                            <div class="ai-avatar">🤖</div>
+
+                            <div class="ai-avatar">
+                                🤖
+                            </div>
 
                             <div>
-                                <strong>Prova AI Coach</strong>
-                                <small>● Online</small>
+
+                                <strong>
+                                    Prova AI Coach
+                                </strong>
+
+                                <small>
+                                    ● Online
+                                </small>
+
                             </div>
+
                         </div>
 
 
                         <div class="chat-message ai-message">
-                            Hello! 👋 Let's practice IELTS Speaking.
+
+                            Hello! 👋
+
+                            Let's practice IELTS Speaking.
+
                             Can you tell me about your hometown?
+
                         </div>
 
 
                         <div class="chat-message user-message">
-                            I come from a small town where people are very friendly...
+
+                            I come from a small town where people
+                            are very friendly...
+
                         </div>
 
 
                         <div class="ai-feedback">
 
-                            <strong>AI Feedback</strong>
+                            <strong>
+                                AI Feedback
+                            </strong>
 
                             <div class="feedback-score">
-                                Estimated Band: <b>6.5</b>
+
+                                Estimated Band:
+
+                                <b>
+                                    6.5
+                                </b>
+
                             </div>
 
                             <p>
-                                Good fluency! Try using more advanced
-                                vocabulary to improve your lexical resource.
+
+                                Good fluency!
+
+                                Try using more advanced vocabulary
+                                to improve your lexical resource.
+
                             </p>
 
                         </div>
@@ -351,79 +462,110 @@
         </section>
 
 
-        <!-- How It Works -->
-        <section class="how-section" id="how-it-works">
+        <!-- =========================
+             MOCK TESTS
+        ========================== -->
+
+        <section class="mock-section" id="mock-tests">
 
             <div class="container">
 
                 <div class="section-heading">
 
                     <div class="section-label">
-                        HOW IELTSProva WORKS
+                        REALISTIC EXAM PRACTICE
                     </div>
 
                     <h2>
-                        Your Journey to a
-                        <span>Higher Band Score</span>
+                        Test Yourself with
+                        <span>IELTS Mock Exams</span>
                     </h2>
+
+                    <p>
+                        Simulate the real IELTS experience and understand
+                        exactly where you stand before exam day.
+                    </p>
 
                 </div>
 
 
-                <div class="steps">
+                <div class="mock-grid">
 
-                    <div class="step">
 
-                        <div class="step-number">01</div>
+                    <div class="mock-card">
 
-                        <h3>Discover Your Level</h3>
+                        <div class="mock-icon">
+                            📝
+                        </div>
+
+                        <h3>
+                            Full IELTS Mock Test
+                        </h3>
 
                         <p>
-                            Take our assessment test to understand your current
-                            IELTS level and identify your weaknesses.
+                            Experience a complete IELTS simulation covering
+                            Reading, Listening, Writing and Speaking.
                         </p>
+
+                        <span class="premium-label">
+                            ⭐ PREMIUM
+                        </span>
+
+                        <a href="signup.html">
+                            Start Mock Test →
+                        </a>
 
                     </div>
 
 
-                    <div class="step">
+                    <div class="mock-card">
 
-                        <div class="step-number">02</div>
+                        <div class="mock-icon">
+                            📊
+                        </div>
 
-                        <h3>Practice & Learn</h3>
+                        <h3>
+                            Band Score Analysis
+                        </h3>
 
                         <p>
-                            Practice all four IELTS skills with exercises
-                            designed around your personal learning needs.
+                            Get estimated band scores and discover which
+                            skills need the most improvement.
                         </p>
+
+                        <span class="premium-label">
+                            ⭐ PREMIUM
+                        </span>
+
+                        <a href="signup.html">
+                            View Analysis →
+                        </a>
 
                     </div>
 
 
-                    <div class="step">
+                    <div class="mock-card">
 
-                        <div class="step-number">03</div>
+                        <div class="mock-icon">
+                            🎯
+                        </div>
 
-                        <h3>Get AI Feedback</h3>
-
-                        <p>
-                            Receive intelligent feedback and personalized
-                            recommendations to improve your performance.
-                        </p>
-
-                    </div>
-
-
-                    <div class="step">
-
-                        <div class="step-number">04</div>
-
-                        <h3>Achieve Your Goal</h3>
+                        <h3>
+                            Target Band Tracker
+                        </h3>
 
                         <p>
-                            Track your progress, take mock exams, and build
-                            the confidence you need for test day.
+                            Track your progress toward your target band
+                            and see how close you are to your goal.
                         </p>
+
+                        <span class="free-label">
+                            FREE
+                        </span>
+
+                        <a href="signup.html">
+                            Track Progress →
+                        </a>
 
                     </div>
 
@@ -434,34 +576,627 @@
         </section>
 
 
-        <!-- CTA -->
+        <!-- =========================
+             STUDY PLAN
+        ========================== -->
+
+        <section class="study-section">
+
+            <div class="container study-container">
+
+                <div class="study-content">
+
+                    <div class="section-label">
+                        PERSONALIZED FOR YOU
+                    </div>
+
+                    <h2>
+                        Your IELTS Journey.
+                        <span>Your Personal Plan.</span>
+                    </h2>
+
+                    <p>
+                        IELTSProva analyzes your performance and creates
+                        a personalized learning plan based on your target
+                        band, exam date, and areas that need improvement.
+                    </p>
+
+
+                    <div class="study-points">
+
+                        <div>
+                            <strong>
+                                01
+                            </strong>
+
+                            <span>
+                                Discover your current IELTS level.
+                            </span>
+                        </div>
+
+
+                        <div>
+                            <strong>
+                                02
+                            </strong>
+
+                            <span>
+                                Set your target band and exam date.
+                            </span>
+                        </div>
+
+
+                        <div>
+                            <strong>
+                                03
+                            </strong>
+
+                            <span>
+                                Receive a personalized study schedule.
+                            </span>
+                        </div>
+
+
+                        <div>
+                            <strong>
+                                04
+                            </strong>
+
+                            <span>
+                                Improve and track your progress.
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="study-preview">
+
+                    <div class="plan-card">
+
+                        <div class="plan-header">
+
+                            <div>
+
+                                <small>
+                                    YOUR STUDY PLAN
+                                </small>
+
+                                <h3>
+                                    Week 1
+                                </h3>
+
+                            </div>
+
+                            <span>
+                                35%
+                            </span>
+
+                        </div>
+
+
+                        <div class="plan-task completed">
+                            ✓ Reading Practice
+                        </div>
+
+                        <div class="plan-task completed">
+                            ✓ Vocabulary Builder
+                        </div>
+
+                        <div class="plan-task">
+                            ○ Writing Task 2
+                        </div>
+
+                        <div class="plan-task">
+                            ○ AI Speaking Practice
+                        </div>
+
+                        <div class="plan-task">
+                            ○ Listening Practice
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             WRITING AI
+        ========================== -->
+
+        <section class="writing-section">
+
+            <div class="container writing-container">
+
+                <div class="writing-preview">
+
+                    <div class="writing-card">
+
+                        <div class="writing-header">
+
+                            <span>
+                                AI WRITING EVALUATOR
+                            </span>
+
+                            <strong>
+                                Band 6.5
+                            </strong>
+
+                        </div>
+
+
+                        <div class="writing-score">
+
+                            <div>
+                                <span>
+                                    Task Achievement
+                                </span>
+
+                                <strong>
+                                    6.5
+                                </strong>
+                            </div>
+
+
+                            <div>
+                                <span>
+                                    Coherence & Cohesion
+                                </span>
+
+                                <strong>
+                                    6.0
+                                </strong>
+                            </div>
+
+
+                            <div>
+                                <span>
+                                    Lexical Resource
+                                </span>
+
+                                <strong>
+                                    7.0
+                                </strong>
+                            </div>
+
+
+                            <div>
+                                <span>
+                                    Grammar
+                                </span>
+
+                                <strong>
+                                    6.5
+                                </strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="writing-feedback">
+
+                            💡
+
+                            Your ideas are clear.
+
+                            Try using more complex sentence structures
+                            to improve your grammar score.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="writing-content">
+
+                    <div class="section-label">
+                        IMPROVE YOUR WRITING
+                    </div>
+
+                    <h2>
+                        Get Detailed Feedback
+                        <span>Before Exam Day</span>
+                    </h2>
+
+                    <p>
+                        Submit your IELTS Writing Task 1 or Task 2 response
+                        and receive AI-powered feedback based on IELTS
+                        assessment criteria.
+                    </p>
+
+                    <a href="signup.html" class="primary-btn">
+                        Try AI Writing Feedback →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TESTIMONIALS
+        ========================== -->
+
+        <section class="testimonials-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-label">
+                        STUDENT SUCCESS
+                    </div>
+
+                    <h2>
+                        Built to Help You
+                        <span>Reach Your Goals</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="testimonial-grid">
+
+
+                    <div class="testimonial-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "The AI speaking practice helped me become
+                            much more confident when answering IELTS
+                            Speaking questions."
+                        </p>
+
+                        <strong>
+                            Future IELTS Student
+                        </strong>
+
+                        <span>
+                            IELTSProva Community
+                        </span>
+
+                    </div>
+
+
+                    <div class="testimonial-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "I love being able to see my progress and
+                            understand exactly which areas I need to
+                            improve."
+                        </p>
+
+                        <strong>
+                            IELTSProva Learner
+                        </strong>
+
+                        <span>
+                            IELTS Preparation
+                        </span>
+
+                    </div>
+
+
+                    <div class="testimonial-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "The personalized study plan makes preparation
+                            feel much more organized and achievable."
+                        </p>
+
+                        <strong>
+                            IELTS Candidate
+                        </strong>
+
+                        <span>
+                            IELTSProva Community
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRICING
+        ========================== -->
+
+        <section class="pricing-section" id="pricing">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-label">
+                        SIMPLE & FLEXIBLE
+                    </div>
+
+                    <h2>
+                        Start Free.
+                        <span>Upgrade When You're Ready.</span>
+                    </h2>
+
+                    <p>
+                        Get started with essential IELTS practice,
+                        then unlock advanced AI tools with Premium.
+                    </p>
+
+                </div>
+
+
+                <div class="pricing-grid">
+
+
+                    <!-- FREE -->
+
+                    <div class="pricing-card">
+
+                        <h3>
+                            Free
+                        </h3>
+
+                        <p>
+                            Start your IELTS journey.
+                        </p>
+
+                        <div class="price">
+                            ₦0
+                            <span>
+                                / forever
+                            </span>
+                        </div>
+
+
+                        <ul>
+
+                            <li>✓ Create your IELTSProva account</li>
+
+                            <li>✓ Basic Reading practice</li>
+
+                            <li>✓ Basic Listening practice</li>
+
+                            <li>✓ Free level assessment</li>
+
+                            <li>✓ Basic progress tracking</li>
+
+                            <li>✓ Limited AI practice</li>
+
+                        </ul>
+
+
+                        <a href="signup.html" class="secondary-btn">
+                            Get Started Free
+                        </a>
+
+                    </div>
+
+
+                    <!-- PREMIUM -->
+
+                    <div class="pricing-card premium-card">
+
+                        <div class="popular-badge">
+                            MOST POPULAR
+                        </div>
+
+                        <h3>
+                            Premium
+                        </h3>
+
+                        <p>
+                            For students serious about their target band.
+                        </p>
+
+                        <div class="price">
+                            ₦X,XXX
+                            <span>
+                                / month
+                            </span>
+                        </div>
+
+
+                        <ul>
+
+                            <li>✓ Everything in Free</li>
+
+                            <li>✓ Unlimited IELTS practice</li>
+
+                            <li>✓ AI Writing Evaluator</li>
+
+                            <li>✓ AI Speaking Tutor</li>
+
+                            <li>✓ Full IELTS Mock Tests</li>
+
+                            <li>✓ Personalized Study Plans</li>
+
+                            <li>✓ Advanced Progress Analytics</li>
+
+                            <li>✓ AI IELTS Coach</li>
+
+                        </ul>
+
+
+                        <a href="pricing.html" class="primary-btn">
+                            View Premium Plans →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FAQ
+        ========================== -->
+
+        <section class="faq-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-label">
+                        QUESTIONS
+                    </div>
+
+                    <h2>
+                        Frequently Asked
+                        <span>Questions</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="faq-list">
+
+
+                    <details>
+
+                        <summary>
+                            What is IELTSProva?
+                        </summary>
+
+                        <p>
+                            IELTSProva is an AI-powered IELTS preparation
+                            platform designed to help students prepare for
+                            Reading, Listening, Writing and Speaking.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Can I use IELTSProva for free?
+                        </summary>
+
+                        <p>
+                            Yes. You can create a free account and access
+                            selected practice materials. Premium features
+                            require an active subscription.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            How does the AI Speaking Tutor work?
+                        </summary>
+
+                        <p>
+                            The AI Speaking Tutor allows you to practice
+                            IELTS Speaking conversations and receive
+                            personalized feedback on your performance.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Can IELTSProva guarantee my IELTS score?
+                        </summary>
+
+                        <p>
+                            No. IELTSProva provides practice, feedback and
+                            estimated performance scores. Your actual IELTS
+                            result is determined by the official IELTS test.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Can I cancel my Premium subscription?
+                        </summary>
+
+                        <p>
+                            Yes. Premium subscribers will be able to manage
+                            and cancel their subscription through their
+                            account settings.
+                        </p>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL CTA
+        ========================== -->
+
         <section class="cta-section">
 
             <div class="container cta-container">
 
                 <h2>
-                    Ready to Reach Your Target Band?
+                    Your Target Band Starts Here.
                 </h2>
 
                 <p>
-                    Start your IELTS preparation journey with IELTSProva today.
+                    Join IELTSProva and start building the confidence
+                    you need for exam day.
                 </p>
 
-                <a href="#" class="primary-btn">
-                    Start Preparing for Free →
+                <a href="signup.html" class="primary-btn">
+                    Create Your Free Account →
                 </a>
 
             </div>
 
         </section>
 
+
     </main>
 
 
-    <!-- Footer -->
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
     <footer class="footer">
 
         <div class="container footer-container">
+
 
             <div class="footer-brand">
 
@@ -478,19 +1213,73 @@
 
             <div class="footer-links">
 
-                <div>
-                    <h4>Platform</h4>
-                    <a href="#skills">IELTS Skills</a>
-                    <a href="#ai">AI Coach</a>
-                    <a href="#how-it-works">How It Works</a>
-                </div>
 
                 <div>
-                    <h4>Company</h4>
-                    <a href="#">About</a>
-                    <a href="#pricing">Pricing</a>
-                    <a href="#">Contact</a>
+
+                    <h4>
+                        Platform
+                    </h4>
+
+                    <a href="#skills">
+                        IELTS Skills
+                    </a>
+
+                    <a href="#ai">
+                        AI Features
+                    </a>
+
+                    <a href="#mock-tests">
+                        Mock Tests
+                    </a>
+
+                    <a href="#pricing">
+                        Pricing
+                    </a>
+
                 </div>
+
+
+                <div>
+
+                    <h4>
+                        Account
+                    </h4>
+
+                    <a href="login.html">
+                        Log In
+                    </a>
+
+                    <a href="signup.html">
+                        Create Account
+                    </a>
+
+                    <a href="pricing.html">
+                        Premium
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Company
+                    </h4>
+
+                    <a href="#">
+                        About
+                    </a>
+
+                    <a href="#">
+                        Contact
+                    </a>
+
+                    <a href="#">
+                        Privacy
+                    </a>
+
+                </div>
+
 
             </div>
 
@@ -511,4 +1300,4 @@
     <script src="js/script.js"></script>
 
 </body>
-                                                            </html>
+                    </html>
